@@ -7,9 +7,14 @@ using WinAppDriverAbstraction.Interfaces;
 
 namespace WinAppDriverAbstraction
 {
-    public class Application
+    public sealed class Application
     {
         public void StartUpAction<T>(T t) where T: ISnippet
+        {
+            t.Execute();
+        }
+
+        public void ShutDownAction<T>(T t) where T : ISnippet
         {
             t.Execute();
         }
