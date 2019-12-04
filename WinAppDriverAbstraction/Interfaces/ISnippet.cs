@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinAppDriverAbstraction
+namespace WinAppDriverAbstraction.Interfaces
 {
-    public class Application
+    public interface ISnippet
     {
+        void Execute();
     }
 }

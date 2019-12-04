@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppDriverAbstraction", "WinAppDriverAbstraction.csproj", "{5A1C35FC-CA91-44CC-A840-BA48E7592759}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppDriverAbstraction", "WinAppDriverAbstraction\WinAppDriverAbstraction.csproj", "{5A1C35FC-CA91-44CC-A840-BA48E7592759}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
