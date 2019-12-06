@@ -9,14 +9,16 @@ namespace WinAppDriverAbstraction
 {
     public sealed class Application
     {
-        public void StartUpAction<T>(T t) where T: ISnippet
+        public List<ReturnType> StartUpAction<ReturnType>(ISnippet<ReturnType> t) where ReturnType:class, new()
         {
             t.Execute();
+            return t.ExecutionResult();
         }
 
-        public void ShutDownAction<T>(T t) where T : ISnippet
+        public List<ReturnType> ShutDownAction<ReturnType>(ISnippet<ReturnType> t) where ReturnType : class, new()
         {
             t.Execute();
+            return t.ExecutionResult();
         }
     }
 }

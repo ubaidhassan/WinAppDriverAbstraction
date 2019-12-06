@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace WinAppDriverAbstraction.Interfaces
 {
-    public interface ISnippet
+    public interface ISnippet<ReturnType>
     {
         void Execute();
+        List<ReturnType> ExecutionResult();
+
+        void AddReturnValue(object returnType);
     }
 }

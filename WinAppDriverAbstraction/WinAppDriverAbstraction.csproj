@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
+    <Compile Include="BaseSnippet.cs" />
     <Compile Include="Interfaces\ISnippet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
